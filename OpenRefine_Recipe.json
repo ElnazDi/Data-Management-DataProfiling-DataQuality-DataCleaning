@@ -1,0 +1,4613 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "listing_url",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column listing_url using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "host_since",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_since using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "host_total_listings_count",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_total_listings_count using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_is_superhost using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_cleansed",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_cleansed using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_group_cleansed",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_group_cleansed using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column country_code using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "latitude",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitude using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "longitude",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitude using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column property_type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column room_type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "bathrooms",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bathrooms using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "bedrooms",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bedrooms using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "beds",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column beds using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "price",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "accommodates",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column accommodates using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "minimum_nights",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column minimum_nights using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "calendar_updated",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column calendar_updated using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column availability_90 using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column instant_bookable using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "first_review",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column first_review using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_x",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_x using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "reviews_per_month",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column reviews_per_month using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "facetCount(value, 'value', 'id') > 1",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "gender_last_review",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column gender_last_review using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column country_code using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column room_type using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_cleansed",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_cleansed using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood_group_cleansed",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood_group_cleansed using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column property_type using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column room_type using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "calendar_updated",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column calendar_updated using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column instant_bookable using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_is_superhost using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y",
+    "expression": "grel:replace(value, \"/\", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y using expression grel:replace(value, \"/\", \"-\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "neighbourhood_cleansed",
+    "newColumnName": "neighbourhood",
+    "description": "Rename column neighbourhood_cleansed to neighbourhood"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "neighbourhood_group_cleansed",
+    "newColumnName": "borough",
+    "description": "Rename column neighbourhood_group_cleansed to borough"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.toNumber()"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "number",
+          "column": "id",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/blank-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "description": "Blank down cells in column id"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id",
+          "expression": "isBlank(value)",
+          "columnName": "id",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value.replace(\"\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression value.replace(\"\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "city",
+          "expression": "isBlank(value)",
+          "columnName": "city",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "grel:if(isBlank(value.trim()), \"Berlin\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression grel:if(isBlank(value.trim()), \"Berlin\", value)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ".",
+          "*"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin Friedrichshain",
+          "Berlin, Friedrichshain"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin",
+          "Berlín"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin - Mitte",
+          "Berlin Mitte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin",
+          "Berlinn",
+          "Berlino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlinn",
+          "Berlino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin",
+          "Berlinxx"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin - Schöneberg",
+          "Berlin-schöneberg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin (wedding)",
+          "Berlin-wedding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin (kreuzberg)",
+          "Berlin-kreuzberg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin",
+          "10999 Berlin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin",
+          "Berlim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin, Berlin, De",
+          "Berlin-friedrichshain"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      },
+      {
+        "from": [
+          "Berlin / Kleinmachnow",
+          "Berlin-neukölln"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin-mitte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin-treptow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin-wilmersdorf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin/steglitz"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Erkner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gosen-neu Zittau"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kleinmachnow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mitte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Potsdam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Prenzlauer Berg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Schöneberg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Wannsee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Weissensee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "city",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Βερολίνο"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin"
+      }
+    ],
+    "description": "Mass edit cells in column city"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DE",
+          "DDE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DE"
+      }
+    ],
+    "description": "Mass edit cells in column country_code"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "USA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DE"
+      }
+    ],
+    "description": "Mass edit cells in column country_code"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DE"
+      }
+    ],
+    "description": "Mass edit cells in column country_code"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_code",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DE"
+      }
+    ],
+    "description": "Mass edit cells in column country_code"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column last_review_y by separator"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "last_review_y 3",
+    "expression": "grel:if(value > 19, \"yes\", \"no\")",
+    "onError": "set-to-blank",
+    "newColumnName": "validity_check",
+    "columnInsertIndex": 27,
+    "description": "Create column validity_check at index 27 based on column last_review_y 3 using expression grel:if(value > 19, \"yes\", \"no\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "last_review_y 1",
+    "newColumnName": "day",
+    "description": "Rename column last_review_y 1 to day"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "last_review_y 2",
+    "newColumnName": "month",
+    "description": "Rename column last_review_y 2 to month"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "last_review_y 3",
+    "newColumnName": "year",
+    "description": "Rename column last_review_y 3 to year"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "day",
+    "expression": "join ([coalesce(cells['year'].value,''),coalesce(cells['month'].value,''),coalesce(cells['day'].value,'')],'-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column day using expression join ([coalesce(cells['year'].value,''),coalesce(cells['month'].value,''),coalesce(cells['day'].value,'')],'-')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "day",
+    "newColumnName": "last_review_y_cleaned",
+    "description": "Rename column day to last_review_y_cleaned"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "month",
+    "description": "Remove column month"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "year",
+    "description": "Remove column year"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "grel:replace(value,\"-\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column availability_90 using expression grel:replace(value,\"-\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column availability_90 using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Berlin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column availability_90"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y_cleaned",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y_cleaned using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y_cleaned",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y_cleaned using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y_cleaned",
+    "expression": "grel:value.toString(\"dd/MM/YY\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y_cleaned using expression grel:value.toString(\"dd/MM/YY\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y_cleaned",
+    "expression": "grel:replace(value,\"/\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y_cleaned using expression grel:replace(value,\"/\",\"-\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gender_last_review",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "C"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column gender_last_review"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gender_last_review",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "G"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column gender_last_review"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.toString()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "price",
+    "expression": "grel:value.replace(\"$\",\"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "price_without_dollar",
+    "columnInsertIndex": 17,
+    "description": "Create column price_without_dollar at index 17 based on column price using expression grel:value.replace(\"$\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price_without_dollar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price_without_dollar using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price_without_dollar",
+    "expression": "grel:value.replace(\",\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price_without_dollar using expression grel:value.replace(\",\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price_without_dollar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price_without_dollar using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "listing_url",
+          "expression": "isBlank(value)",
+          "columnName": "listing_url",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "listing_url",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://www.airbnb.com/rooms/"
+      }
+    ],
+    "description": "Mass edit cells in column listing_url"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "listing_url",
+          "expression": "value",
+          "columnName": "listing_url",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "https://www.airbnb.com/rooms/",
+                "l": "https://www.airbnb.com/rooms/"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "listing_url",
+    "expression": "grel:value + cells['id'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column listing_url using expression grel:value + cells['id'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "listing_url",
+          "expression": "value",
+          "columnName": "listing_url",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "https://www.airbnb.com/rooms/",
+                "l": "https://www.airbnb.com/rooms/"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "listing_url",
+    "expression": "grel:value + cells['id'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column listing_url using expression grel:value + cells['id'].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "validity_check",
+    "description": "Remove column validity_check"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aprement"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Apartment"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Haus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hatel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Eentireee Home/apt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Entire Home or Apartment"
+      }
+    ],
+    "description": "Mass edit cells in column room_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Provitte Roommm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Private Room"
+      }
+    ],
+    "description": "Mass edit cells in column room_type"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "host_is_superhost",
+          "expression": "value",
+          "columnName": "host_is_superhost",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "F",
+                "l": "F"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "grel:value.replace(\"F\", \"0\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_is_superhost using expression grel:value.replace(\"F\", \"0\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "host_is_superhost",
+          "expression": "value",
+          "columnName": "host_is_superhost",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "T",
+                "l": "T"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "grel:value.replace(\"T\", \"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_is_superhost using expression grel:value.replace(\"T\", \"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "instant_bookable",
+          "expression": "value",
+          "columnName": "instant_bookable",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "F",
+                "l": "F"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "grel:value.replace(\"F\", \"0\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column instant_bookable using expression grel:value.replace(\"F\", \"0\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "instant_bookable",
+          "expression": "value",
+          "columnName": "instant_bookable",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "T",
+                "l": "T"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "grel:value.replace(\"T\", \"1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column instant_bookable using expression grel:value.replace(\"T\", \"1\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bathrooms",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bathrooms using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_total_listings_count",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_total_listings_count using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bedrooms",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bedrooms using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "beds",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column beds using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "accommodates",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column accommodates using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "minimum_nights",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column minimum_nights using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "room_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Entire Home or Apartment"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Entire Home/Apar"
+      }
+    ],
+    "description": "Mass edit cells in column room_type"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "last_review_y_cleaned",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column last_review_y_cleaned using expression value.toString()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "last_review_y_cleaned",
+    "expression": "grel:20+ cells['last_review_y_cleaned'].value",
+    "onError": "set-to-blank",
+    "newColumnName": "complete_year",
+    "columnInsertIndex": 26,
+    "description": "Create column complete_year at index 26 based on column last_review_y_cleaned using expression grel:20+ cells['last_review_y_cleaned'].value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "complete_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column complete_year"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "last_review_y_cleaned",
+    "description": "Remove column last_review_y_cleaned"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighbourhood",
+    "expression": "grel:value.replace(\",\", \".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column neighbourhood using expression grel:value.replace(\",\", \".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "borough",
+    "expression": "grel:value.replace(\",\", \".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column borough using expression grel:value.replace(\",\", \".\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "complete_year",
+    "expression": "grel:if(value == cells[\"last_review_x\"].value, \"Y\", \"N\")",
+    "onError": "set-to-blank",
+    "newColumnName": "compare",
+    "columnInsertIndex": 26,
+    "description": "Create column compare at index 26 based on column complete_year using expression grel:if(value == cells[\"last_review_x\"].value, \"Y\", \"N\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "complete_year",
+    "newColumnName": "last_review_y_cleaned",
+    "description": "Rename column complete_year to last_review_y_cleaned"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      }
+    ],
+    "description": "Mass edit cells in column host_is_superhost"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "T"
+      }
+    ],
+    "description": "Mass edit cells in column host_is_superhost"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_is_superhost",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column host_is_superhost"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "F"
+      }
+    ],
+    "description": "Mass edit cells in column instant_bookable"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "T"
+      }
+    ],
+    "description": "Mass edit cells in column instant_bookable"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reviews_per_month",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column reviews_per_month using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "price_without_dollar",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "meanPrice",
+    "columnInsertIndex": 18,
+    "description": "Create column meanPrice at index 18 based on column price_without_dollar using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "meanPrice",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "60"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": 58
+      }
+    ],
+    "description": "Mass edit cells in column meanPrice"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "meanPrice",
+    "description": "Remove column meanPrice"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price_without_dollar",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "58"
+      }
+    ],
+    "description": "Mass edit cells in column price_without_dollar"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "calendar_updated",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column calendar_updated"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "instant_bookable",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column instant_bookable"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reviews_per_month",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "1.03"
+      }
+    ],
+    "description": "Mass edit cells in column reviews_per_month"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reviews_per_month",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column reviews_per_month using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price_without_dollar",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price_without_dollar using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bathrooms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column bathrooms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bedrooms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column bedrooms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "beds",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column beds"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "price_without_dollar",
+    "newColumnName": "cleaned_price",
+    "description": "Rename column price_without_dollar to cleaned_price"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bathrooms",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bathrooms using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bedrooms",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bedrooms using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "beds",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column beds using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "price",
+    "description": "Remove column price"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_total_listings_count",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "2"
+      }
+    ],
+    "description": "Mass edit cells in column host_total_listings_count"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "host_total_listings_count",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column host_total_listings_count using expression value.toNumber()"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "host_total_listings_count",
+          "expression": "value",
+          "columnName": "host_total_listings_count",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 378,
+                "l": "378"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "host_total_listings_count",
+          "expression": "value",
+          "columnName": "host_total_listings_count",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 1676,
+                "l": "1676"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "host_total_listings_count",
+          "expression": "value",
+          "columnName": "host_total_listings_count",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 118,
+                "l": "118"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "cleaned_price",
+          "expression": "value",
+          "columnName": "cleaned_price",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 6000,
+                "l": "6000"
+              }
+            },
+            {
+              "v": {
+                "v": 800,
+                "l": "800"
+              }
+            },
+            {
+              "v": {
+                "v": 1000,
+                "l": "1000"
+              }
+            },
+            {
+              "v": {
+                "v": 1250,
+                "l": "1250"
+              }
+            },
+            {
+              "v": {
+                "v": 2228,
+                "l": "2228"
+              }
+            },
+            {
+              "v": {
+                "v": 2225,
+                "l": "2225"
+              }
+            },
+            {
+              "v": {
+                "v": 8000,
+                "l": "8000"
+              }
+            },
+            {
+              "v": {
+                "v": 1050,
+                "l": "1050"
+              }
+            },
+            {
+              "v": {
+                "v": 3000,
+                "l": "3000"
+              }
+            },
+            {
+              "v": {
+                "v": 999,
+                "l": "999"
+              }
+            },
+            {
+              "v": {
+                "v": 880,
+                "l": "880"
+              }
+            },
+            {
+              "v": {
+                "v": 1500,
+                "l": "1500"
+              }
+            },
+            {
+              "v": {
+                "v": 885,
+                "l": "885"
+              }
+            },
+            {
+              "v": {
+                "v": 888,
+                "l": "888"
+              }
+            },
+            {
+              "v": {
+                "v": 9000,
+                "l": "9000"
+              }
+            },
+            {
+              "v": {
+                "v": 650,
+                "l": "650"
+              }
+            },
+            {
+              "v": {
+                "v": 899,
+                "l": "899"
+              }
+            },
+            {
+              "v": {
+                "v": 8600,
+                "l": "8600"
+              }
+            },
+            {
+              "v": {
+                "v": 2500,
+                "l": "2500"
+              }
+            },
+            {
+              "v": {
+                "v": 5000,
+                "l": "5000"
+              }
+            },
+            {
+              "v": {
+                "v": 900,
+                "l": "900"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "cleaned_price",
+          "expression": "value",
+          "columnName": "cleaned_price",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 6000,
+                "l": "6000"
+              }
+            },
+            {
+              "v": {
+                "v": 800,
+                "l": "800"
+              }
+            },
+            {
+              "v": {
+                "v": 1000,
+                "l": "1000"
+              }
+            },
+            {
+              "v": {
+                "v": 1250,
+                "l": "1250"
+              }
+            },
+            {
+              "v": {
+                "v": 2228,
+                "l": "2228"
+              }
+            },
+            {
+              "v": {
+                "v": 2225,
+                "l": "2225"
+              }
+            },
+            {
+              "v": {
+                "v": 8000,
+                "l": "8000"
+              }
+            },
+            {
+              "v": {
+                "v": 1050,
+                "l": "1050"
+              }
+            },
+            {
+              "v": {
+                "v": 3000,
+                "l": "3000"
+              }
+            },
+            {
+              "v": {
+                "v": 999,
+                "l": "999"
+              }
+            },
+            {
+              "v": {
+                "v": 880,
+                "l": "880"
+              }
+            },
+            {
+              "v": {
+                "v": 1500,
+                "l": "1500"
+              }
+            },
+            {
+              "v": {
+                "v": 885,
+                "l": "885"
+              }
+            },
+            {
+              "v": {
+                "v": 888,
+                "l": "888"
+              }
+            },
+            {
+              "v": {
+                "v": 9000,
+                "l": "9000"
+              }
+            },
+            {
+              "v": {
+                "v": 650,
+                "l": "650"
+              }
+            },
+            {
+              "v": {
+                "v": 899,
+                "l": "899"
+              }
+            },
+            {
+              "v": {
+                "v": 8600,
+                "l": "8600"
+              }
+            },
+            {
+              "v": {
+                "v": 2500,
+                "l": "2500"
+              }
+            },
+            {
+              "v": {
+                "v": 5000,
+                "l": "5000"
+              }
+            },
+            {
+              "v": {
+                "v": 900,
+                "l": "900"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "cleaned_price",
+          "expression": "value",
+          "columnName": "cleaned_price",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 1900,
+                "l": "1900"
+              }
+            },
+            {
+              "v": {
+                "v": 1875,
+                "l": "1875"
+              }
+            },
+            {
+              "v": {
+                "v": 666,
+                "l": "666"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "minimum_nights",
+          "expression": "value",
+          "columnName": "minimum_nights",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 112,
+                "l": "112"
+              }
+            },
+            {
+              "v": {
+                "v": 355,
+                "l": "355"
+              }
+            },
+            {
+              "v": {
+                "v": 115,
+                "l": "115"
+              }
+            },
+            {
+              "v": {
+                "v": 91,
+                "l": "91"
+              }
+            },
+            {
+              "v": {
+                "v": 92,
+                "l": "92"
+              }
+            },
+            {
+              "v": {
+                "v": 119,
+                "l": "119"
+              }
+            },
+            {
+              "v": {
+                "v": 93,
+                "l": "93"
+              }
+            },
+            {
+              "v": {
+                "v": 95,
+                "l": "95"
+              }
+            },
+            {
+              "v": {
+                "v": 99,
+                "l": "99"
+              }
+            },
+            {
+              "v": {
+                "v": 360,
+                "l": "360"
+              }
+            },
+            {
+              "v": {
+                "v": 240,
+                "l": "240"
+              }
+            },
+            {
+              "v": {
+                "v": 120,
+                "l": "120"
+              }
+            },
+            {
+              "v": {
+                "v": 365,
+                "l": "365"
+              }
+            },
+            {
+              "v": {
+                "v": 400,
+                "l": "400"
+              }
+            },
+            {
+              "v": {
+                "v": 129,
+                "l": "129"
+              }
+            },
+            {
+              "v": {
+                "v": 1000,
+                "l": "1000"
+              }
+            },
+            {
+              "v": {
+                "v": 130,
+                "l": "130"
+              }
+            },
+            {
+              "v": {
+                "v": 140,
+                "l": "140"
+              }
+            },
+            {
+              "v": {
+                "v": 300,
+                "l": "300"
+              }
+            },
+            {
+              "v": {
+                "v": 148,
+                "l": "148"
+              }
+            },
+            {
+              "v": {
+                "v": 390,
+                "l": "390"
+              }
+            },
+            {
+              "v": {
+                "v": 270,
+                "l": "270"
+              }
+            },
+            {
+              "v": {
+                "v": 150,
+                "l": "150"
+              }
+            },
+            {
+              "v": {
+                "v": 152,
+                "l": "152"
+              }
+            },
+            {
+              "v": {
+                "v": 200,
+                "l": "200"
+              }
+            },
+            {
+              "v": {
+                "v": 5000,
+                "l": "5000"
+              }
+            },
+            {
+              "v": {
+                "v": 180,
+                "l": "180"
+              }
+            },
+            {
+              "v": {
+                "v": 181,
+                "l": "181"
+              }
+            },
+            {
+              "v": {
+                "v": 182,
+                "l": "182"
+              }
+            },
+            {
+              "v": {
+                "v": 183,
+                "l": "183"
+              }
+            },
+            {
+              "v": {
+                "v": 185,
+                "l": "185"
+              }
+            },
+            {
+              "v": {
+                "v": 186,
+                "l": "186"
+              }
+            },
+            {
+              "v": {
+                "v": 100,
+                "l": "100"
+              }
+            },
+            {
+              "v": {
+                "v": 105,
+                "l": "105"
+              }
+            },
+            {
+              "v": {
+                "v": 106,
+                "l": "106"
+              }
+            },
+            {
+              "v": {
+                "v": 900,
+                "l": "900"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "minimum_nights",
+          "expression": "value",
+          "columnName": "minimum_nights",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": 112,
+                "l": "112"
+              }
+            },
+            {
+              "v": {
+                "v": 355,
+                "l": "355"
+              }
+            },
+            {
+              "v": {
+                "v": 115,
+                "l": "115"
+              }
+            },
+            {
+              "v": {
+                "v": 91,
+                "l": "91"
+              }
+            },
+            {
+              "v": {
+                "v": 92,
+                "l": "92"
+              }
+            },
+            {
+              "v": {
+                "v": 119,
+                "l": "119"
+              }
+            },
+            {
+              "v": {
+                "v": 93,
+                "l": "93"
+              }
+            },
+            {
+              "v": {
+                "v": 95,
+                "l": "95"
+              }
+            },
+            {
+              "v": {
+                "v": 99,
+                "l": "99"
+              }
+            },
+            {
+              "v": {
+                "v": 360,
+                "l": "360"
+              }
+            },
+            {
+              "v": {
+                "v": 240,
+                "l": "240"
+              }
+            },
+            {
+              "v": {
+                "v": 120,
+                "l": "120"
+              }
+            },
+            {
+              "v": {
+                "v": 365,
+                "l": "365"
+              }
+            },
+            {
+              "v": {
+                "v": 400,
+                "l": "400"
+              }
+            },
+            {
+              "v": {
+                "v": 129,
+                "l": "129"
+              }
+            },
+            {
+              "v": {
+                "v": 1000,
+                "l": "1000"
+              }
+            },
+            {
+              "v": {
+                "v": 130,
+                "l": "130"
+              }
+            },
+            {
+              "v": {
+                "v": 140,
+                "l": "140"
+              }
+            },
+            {
+              "v": {
+                "v": 300,
+                "l": "300"
+              }
+            },
+            {
+              "v": {
+                "v": 148,
+                "l": "148"
+              }
+            },
+            {
+              "v": {
+                "v": 390,
+                "l": "390"
+              }
+            },
+            {
+              "v": {
+                "v": 270,
+                "l": "270"
+              }
+            },
+            {
+              "v": {
+                "v": 150,
+                "l": "150"
+              }
+            },
+            {
+              "v": {
+                "v": 152,
+                "l": "152"
+              }
+            },
+            {
+              "v": {
+                "v": 200,
+                "l": "200"
+              }
+            },
+            {
+              "v": {
+                "v": 5000,
+                "l": "5000"
+              }
+            },
+            {
+              "v": {
+                "v": 180,
+                "l": "180"
+              }
+            },
+            {
+              "v": {
+                "v": 181,
+                "l": "181"
+              }
+            },
+            {
+              "v": {
+                "v": 182,
+                "l": "182"
+              }
+            },
+            {
+              "v": {
+                "v": 183,
+                "l": "183"
+              }
+            },
+            {
+              "v": {
+                "v": 185,
+                "l": "185"
+              }
+            },
+            {
+              "v": {
+                "v": 186,
+                "l": "186"
+              }
+            },
+            {
+              "v": {
+                "v": 100,
+                "l": "100"
+              }
+            },
+            {
+              "v": {
+                "v": 105,
+                "l": "105"
+              }
+            },
+            {
+              "v": {
+                "v": 106,
+                "l": "106"
+              }
+            },
+            {
+              "v": {
+                "v": 900,
+                "l": "900"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "19"
+      }
+    ],
+    "description": "Mass edit cells in column availability_90"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Townhouse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Serviced Apartment"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Apartment"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Loft"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Apartment"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bungalow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cottage"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Villa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tiny House"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Chalet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "House"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Barn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bed And Breakfast"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Guesthouse"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Guest Suite"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cave"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Castle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Condominium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Houseboat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "In-law"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Island"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pension (south Korea)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Resort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tipi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Train"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Casa Particular (cuba)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Camper/rv"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cabin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boutique Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hotel"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aparthotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "property_type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hostel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Other"
+      }
+    ],
+    "description": "Mass edit cells in column property_type"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bathrooms",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column bathrooms using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "last_review_x",
+    "newColumnName": "last_review",
+    "description": "Rename column last_review_x to last_review"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "compare",
+    "newColumnName": "compare_last_review_x_y",
+    "description": "Rename column compare to compare_last_review_x_y"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gender_last_review",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Not Provided"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column gender_last_review"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gender_last_review",
+    "description": "Fill down cells in column gender_last_review"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cleaned_price",
+    "newColumnName": "price",
+    "description": "Rename column cleaned_price to price"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "availability_90",
+          "expression": "value",
+          "columnName": "availability_90",
+          "from": 0,
+          "to": 91,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "availability_90",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column availability_90 using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "compare_last_review_x_y",
+    "description": "Remove column compare_last_review_x_y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "last_review",
+    "description": "Remove column last_review"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "last_review_y_cleaned",
+    "newColumnName": "last_review",
+    "description": "Rename column last_review_y_cleaned to last_review"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "58"
+      }
+    ],
+    "description": "Mass edit cells in column price"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "price",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "58"
+      }
+    ],
+    "description": "Mass edit cells in column price"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "price",
+          "expression": "value",
+          "columnName": "price",
+          "from": 0,
+          "to": 610,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "price",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column price using expression value.toNumber()"
+  }
+]
