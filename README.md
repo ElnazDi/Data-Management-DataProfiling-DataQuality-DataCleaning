@@ -11,8 +11,10 @@ Data Qulity aspects:
 5. Currency
 6. Up-to-Date
 7. Conformity
+8. Consistency
 
 I did data cleaning by OpenRefine, Trifacta, Pandas.
 
 
 For more information please refer to the project description and my complete presentation and reports.
+
